@@ -31,15 +31,7 @@ header {
     font-family: Merriweather, serif;
     text-align: center;
     padding: 20px;
-    #banner {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-
-        margin: 0 auto;
-        text-align: center;
     }
-}
 
 h2  {
     color: white;
@@ -116,4 +108,8 @@ li :last-child {
 h4 a:hover  {
 background-color: none;
 color: pink;
+}
+<style>
+.banner {
+    
 }

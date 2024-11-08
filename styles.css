@@ -1,8 +1,119 @@
 body {
-    color: rgb(10, 33, 6);
-    background-color: rgb(255, 0, 208);
+background-image: url("./Images\ for\ website/bgimage.png");
+color: white;
+}
+
+
+    /* The styles applied to a parent element will be inherited by its children elements
+
+    if the children elements have styles, it will override the inheritance.*/
+
+h1 {
+    color: white;
+    font-style: italic;
+    text-align: auto;
+}
+
+p {
+    font-size: larger;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    line-height: normal;
+    text-align: left;
+    margin: auto;
+    color: white;
+} 
+header {
+    background-color: plum;
+    color: white;
+    font-size: x-large;
     font-family: Merriweather, serif;
+    text-align: center;
+    padding: 20px;
+    #banner {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+        margin: 0 auto;
+        text-align: center;
     }
+}
 
+h2  {
+    color: white;
+    font-style: italic;
+    
+}
 
+h3  {
+    color: white;
+    max-width: 300px;
+    font-size: xx-large;
+}
 
+a   {
+        color: white; 
+        font-size: larger
+}
+
+.div-1 {
+    background-color: black;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+
+}
+.div-2 {
+    padding: 20px;
+}
+
+    
+h1 {
+    border-bottom: 10x dotted black;
+
+}
+#first-name {
+    background-color: black;
+    font-size: 25px;
+}
+.title {
+    font-size: 50px;
+    text-decoration: wavy;
+    color: white;
+
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: none;
+    color: pink;
+}
+ul {
+    border: 1px solid #555;
+}
+li {
+    text-align: left;
+}
+
+li :last-child {
+    border-bottom: none;
+}
+
+h4 a:hover  {
+background-color: none;
+color: pink;
+}
